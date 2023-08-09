@@ -17,3 +17,6 @@ kubectl get deployment metrics-server -n kube-system
 NAME             READY   UP-TO-DATE   AVAILABLE   AGE
 metrics-server   1/1     1            1           6m
 ```
+
+<img width="281" alt="image" src="https://github.com/sm55555/k8s/assets/38831314/059b4845-38c5-47a0-96bd-624f4312a3fb">
+
