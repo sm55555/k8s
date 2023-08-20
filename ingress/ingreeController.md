@@ -9,6 +9,9 @@
 
 <img width="658" alt="image" src="https://github.com/sm55555/k8s/assets/38831314/86b9cd9a-156a-47c7-971a-479ee85bd761">
 
+<img width="652" alt="image" src="https://github.com/sm55555/k8s/assets/38831314/a3abd296-b10e-46e4-954b-f335ee6254d8">
+
+
 pod들의 진입점을 Service 예를들어 ClusterIP로 묶어주고 그 ClusterIP 들의 진입점을 알맞은 Ingress Rule을 통해 Ingress Controller가 관리하며 분배해준다.
 
 하지만 기본 Ingress Controller 기본 템플릿에서는 NodePort역할까지 하므로... 클라이언트 -> NodePort:30200 으로 밖에 못온다.
