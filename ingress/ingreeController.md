@@ -6,3 +6,5 @@
   2. 트래픽을 로드밸런싱
   3. SSL 인증서 처리
   4. Virtual hosting을 지정
+
+<img width="658" alt="image" src="https://github.com/sm55555/k8s/assets/38831314/86b9cd9a-156a-47c7-971a-479ee85bd761">
