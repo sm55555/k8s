@@ -17,3 +17,7 @@ pod들의 진입점을 Service 예를들어 ClusterIP로 묶어주고 그 Cluste
 하지만 기본 Ingress Controller 기본 템플릿에서는 NodePort역할까지 하므로... 클라이언트 -> NodePort:30200 으로 밖에 못온다.
 
 추가해야할 부분 앞에 LB 붙여서 서비스 하는것 !
+
+### Nginx Ingress Controller 설치
+
+https://kubernetes.github.io/ingress-nginx/deploy/#aws 알맞은 서버 환경 참고
