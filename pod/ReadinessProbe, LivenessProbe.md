@@ -9,3 +9,9 @@ pod가 2개 운영되는 순간, 만약 1개의 pod가 죽어서 auto healing으
 
 ReadinessProbe는 내부적으로 정상적으로 수행되지 않으면 해당 pod를 service와 연결 시키지 않는다.
 ```
+
+LivenessProbe
+
+```
+APP 운영 시 갑자기 container에 internal 에러가 발생하면 감지해서 에러를 보내지 않는다.
+```
